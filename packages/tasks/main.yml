@@ -1,0 +1,8 @@
+---
+# tasks file for packages
+- name: Będziemy instalować soft z roli packages
+  package:
+    name:
+      - unzip
+      - net-tools
+    state: present
