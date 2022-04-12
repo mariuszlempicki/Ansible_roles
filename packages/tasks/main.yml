@@ -5,4 +5,5 @@
     name:
       - unzip
       - net-tools
+      - mc
     state: present
