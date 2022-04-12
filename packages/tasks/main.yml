@@ -1,6 +1,6 @@
 ---
 # tasks file for packages
-- name: Będziemy instalować soft z roli packages
+- name: Install packeges from packages role
   package:
     name:
       - unzip
